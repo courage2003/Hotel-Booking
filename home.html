@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XYZ Group of Hotels Management System</title>
+    <link rel="stylesheet" href="stylz.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <h2>XYZ Group of Hotels Management System</h2>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#hotels">Hotels</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#bookings">Bookings</a></li>
+            <li><a href="#users">Users</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <h1 id="login-header">Login</h1>
+        <p id="login-text" style="cursor: pointer; color: #2980b9">
+          Click here to login
+        </p>
+        <div id="login-form" style="display: none">
+          <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" required />
+
+            <label for="password">Password</label>
+            <input type="password" id="password" required />
+
+            <button type="submit">Login</button>
+          </form>
+          <p><a href="#">Register</a></p>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
